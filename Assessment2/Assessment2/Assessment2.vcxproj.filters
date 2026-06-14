@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\external">
+      <UniqueIdentifier>{39914cd4-fd54-4b85-8ee4-0d10f430a834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{851d7ddc-fef4-4e90-a12e-67907c636bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\curves">
+      <UniqueIdentifier>{e3489742-8a23-4724-9b41-76c51b37b3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{e801faca-56ed-4e46-9d5d-f25ce9d59479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources Files\textures">
+      <UniqueIdentifier>{6e413996-1ea2-4e7d-b2fa-13bef5a18ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources Files\shaders">
+      <UniqueIdentifier>{1be7ab9b-c005-41e2-96dd-bfe54a41056b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{5695c74c-13ed-4e35-80c1-01a74ee449f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources Files\cubemaps">
+      <UniqueIdentifier>{254f1251-0b8a-4c9f-80ad-75334580a77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources Files\textures\old">
+      <UniqueIdentifier>{3b042669-b005-4cb8-b32b-b6f34e67d908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources Files\shaders\Old">
+      <UniqueIdentifier>{b7486846-c918-4344-9f52-b19f3f1df842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\GL\gl3w.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stb_image.h">
+      <Filter>Header Files\external</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shadow.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\casteljau.h">
+      <Filter>Header Files\curves</Filter>
+    </ClInclude>
+    <ClInclude Include="include\point.h">
+      <Filter>Header Files\curves</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bitmap.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\obj_parse.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\primitives.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\file.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\error.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\material.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\shadow.frag">
+      <Filter>Resources Files\shaders</Filter>
+    </None>
+    <None Include="shaders\shadow.vert">
+      <Filter>Resources Files\shaders</Filter>
+    </None>
+    <None Include="shaders\directional_phong_shadow.frag">
+      <Filter>Resources Files\shaders</Filter>
+    </None>
+    <None Include="shaders\directional_phong_shadow.vert">
+      <Filter>Resources Files\shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.frag">
+      <Filter>Resources Files\shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.vert">
+      <Filter>Resources Files\shaders</Filter>
+    </None>
+    <None Include="shaders\phong.frag">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+    <None Include="shaders\phong.vert">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+    <None Include="shaders\phong_texture.frag">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+    <None Include="shaders\phong_texture.vert">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+    <None Include="shaders\texture.frag">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+    <None Include="shaders\texture.vert">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+    <None Include="shaders\triangle.frag">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+    <None Include="shaders\triangle.vert">
+      <Filter>Resources Files\shaders\Old</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\cubemaps\daylight_back.bmp">
+      <Filter>Resources Files\cubemaps</Filter>
+    </Image>
+    <Image Include="assets\cubemaps\daylight_bottom.bmp">
+      <Filter>Resources Files\cubemaps</Filter>
+    </Image>
+    <Image Include="assets\cubemaps\daylight_front.bmp">
+      <Filter>Resources Files\cubemaps</Filter>
+    </Image>
+    <Image Include="assets\cubemaps\daylight_left.bmp">
+      <Filter>Resources Files\cubemaps</Filter>
+    </Image>
+    <Image Include="assets\cubemaps\daylight_right.bmp">
+      <Filter>Resources Files\cubemaps</Filter>
+    </Image>
+    <Image Include="assets\cubemaps\daylight_top.bmp">
+      <Filter>Resources Files\cubemaps</Filter>
+    </Image>
+    <Image Include="assets\textures\concrete.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\concrete_norm.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\corrugated_metal.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\corrugated_metal_norm.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\fabric.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\fabric_norm.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\grass_norm.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\stone.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\stone_norm.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\stone_tile.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\stone_tile_norm.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\wood.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\wood_norm.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\old\grass.bmp">
+      <Filter>Resources Files\textures\old</Filter>
+    </Image>
+    <Image Include="assets\textures\old\grid.bmp">
+      <Filter>Resources Files\textures\old</Filter>
+    </Image>
+    <Image Include="assets\textures\grass.bmp">
+      <Filter>Resources Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

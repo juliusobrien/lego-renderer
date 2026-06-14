@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.pdb
+*.ilk
+
+# Windows
+Thumbs.db
+
+# Allow ImageCompare tool build
+!ImageCompare/x64/
+!ImageCompare/x64/Debug/
+!ImageCompare/x64/Debug/**
+
+# But still ignore Windows junk
+ImageCompare/x64/Debug/Thumbs.db
+
+# User-specific
+*.user
+*.suo
+
+# CMake
+CMakeFiles/
+CMakeCache.txt

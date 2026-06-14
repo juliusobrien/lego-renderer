@@ -1,0 +1,20 @@
+#pragma once
+// Window
+#define WINDOW_WIDTH 1080 //640
+#define WINDOW_HEIGHT 720 //480
+#define WINDOW_TITLE "OpenGL"
+#define WINDOW_MSAA_SAMPLES 4
+// OpenGL
+#define NUM_BUFFERS 2
+#define NUM_VAOS 2
+#define NUM_MATERIALS 7
+// Shadows
+#define SHADOW_MAP_WIDTH 2048
+#define SHADOW_MAP_HEIGHT 2048
+// Camera Defaults
+#define CAMERA_MOVEMENT_SPEED 2.5f
+#define CAMERA_MOVEMENT_SPRINT_SPEED 5.0f
+#define CAMERA_MOUSE_SENSITIVITY 0.1f
+#define CAMERA_DEFAULT_FOV 45.0f
+#define CAMERA_MIN_FOV 10.0f
+#define CAMERA_MAX_FOV 90.0f
