@@ -15,14 +15,6 @@ x86/
 # Windows
 Thumbs.db
 
-# Allow ImageCompare tool build
-!ImageCompare/x64/
-!ImageCompare/x64/Debug/
-!ImageCompare/x64/Debug/**
-
-# But still ignore Windows junk
-ImageCompare/x64/Debug/Thumbs.db
-
 # User-specific
 *.user
 *.suo
